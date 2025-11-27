@@ -1,0 +1,263 @@
+/* #142817 #373D20 #BCBD8B  717744 */
+/* #212529 - darkest - #495057 - #ADB5BD - #DEE2E6   #F8F9FA - Lightest */
+
+
+*{ 
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing : border-box;
+  
+}
+
+body{ 
+    background-color: rgb(108, 88, 76);
+
+}
+ 
+/*--Donation section-- */
+
+.donoWrap { 
+  text-align: center;
+  padding: auto;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  border-radius: 20px; 
+  font-size: 1.5vw;
+  
+}
+
+.container{ 
+  width: 50vw;
+  height: 65%;
+  margin: auto;
+  border-radius: 30px;
+  border: 8px outset #495057;
+  background-color: #d5d6d8;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.contitem{ 
+  margin-left: 15%;
+  margin-right: 15%;
+   display: inline-flex;
+  flex-direction: row;
+  
+}
+
+.item{ 
+  width: 4.5vw;
+  height: 3vmax;
+  background-color: #212529;
+  font-weight: 620;
+  color: #ADB5BD;
+  text-align: center;
+  border: 0px;
+  border-radius: 25px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  margin-bottom: 5px;
+  font-size: 1.8vw;
+  
+}
+.item:active {
+  background-color: #495057;
+}
+
+.cent { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoDono { 
+ /*--A--*/ 
+ margin: 0px;
+}
+
+.logo { 
+  display: inline-block;
+}
+.logo img {
+  height: 13vw;
+}
+
+.upDono { 
+ /* -  border: 5px outset #495057; - */
+  border-radius: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.george { 
+  padding-top: 15%;
+  /* - border: 5px outset #495057; -*/
+  border-radius: 1px;
+  width: 35%;
+  text-align: center;
+}
+
+.itembut { 
+  width: 8vmax;
+  height: 3.6vmax;
+  background-color: #1d2023;
+  font-weight: 650;
+  font-size: 1.5vw;
+  color: #ADB5BD;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 3px;
+}
+.itembut:active {
+  background-color: #40474e;
+}
+
+
+.donoinp { 
+ width: 15vmax;
+  height: 3.4vmax;
+  background-color: #f8f9fa;
+  padding: 1vw;
+  font-weight: 650;
+  font-size: 17px;
+  color: #212529;
+  text-align: center;
+  border: #f8f9fa;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+}
+ 
+.hover_img a { position:relative; color: #000000; font-size: 2.3vw; }
+.hover_img a span { position:absolute; display:none; z-index:99; padding-left: 1vw; }
+.hover_img a img { height: 10.5vw; }
+.hover_img a:hover {color: #4f565e;}
+.hover_img a:hover span { display:block; }
+
+.centr { 
+  text-align: center;
+}
+
+
+/*-- Bottom of page section--*/
+
+.bottomBg {
+  background-color: #1b1e21;
+  height: 40vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 1vw;
+}
+.upBottom {
+  display: flex;
+  flex-direction: row;
+  height: 9vw;
+}
+.trexPhoto {
+  width: 5vw;
+  padding-top: 9vw;
+  padding-left:3vw ;
+}
+.trexPhoto img {
+  height: 4.8vmin;
+}
+  
+.newsLetter {
+  width: 65vw;
+  display: inline-flex;
+  padding-left: 1vw;
+  padding: 0.6vw;
+  font-size: 2.5vw;
+  color: #c9d0d6;
+}
+
+#butn {
+  width: 9vw;
+  height: 4vw;
+  background-color: #15171a;
+  font-weight: 650;
+  font-size: 1.7vw;
+  color: #c9d0d6;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 0.9vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+#butn:active {
+  background-color: #25282c;
+}
+
+#thanks {
+  font-size: 2vw;
+}
+
+.socialMeds {
+  width: 15vw;
+  height: 8vw;
+  text-align: center;
+  padding-top: 2vw;
+  
+}
+
+.miniSocialMeds {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.lowBottom {
+  display: flex;
+  flex-direction: row;
+  height: 26vw;
+  padding-left: 4vw;
+}
+.logoBottom {
+  /* border: 5px outset #000000; */
+  padding-top: 6vw;
+  width: 20%;
+  padding-left: 2vw;
+}
+.logoBottom img {
+ height: 15vw;
+}
+
+.address {
+  width: 30%;
+  text-align: center;
+  margin-left: 7vw;
+  padding-top: 6.5vw;
+  padding-left: 3px;
+  color: #c9d0d6;
+  font-size: 1.5vmin;
+}
+
+.inline1 {
+  display: inline-block;
+  margin-bottom: 1vw;
+}
+
+.linksBottom {
+  padding-left: 5vw;
+  padding-top: 5vw;
+  width: 40%;
+  display: flex;
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #c9d0d6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linksBottom li {
+  margin: 1vw;
+}
+.holdThanks {
+  width: 15vw;
+  text-align: center;
+  
+}
+
+
+
