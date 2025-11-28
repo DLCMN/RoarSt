@@ -1,1 +1,82 @@
+<html>
+<head>
+    <link rel="stylesheet" href="PageHead.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <!-- The following section is for the Header Area -->
+    <header>
+        <div class="HeaderContainer">
+            <div class="flex-parent">
+                <div class="flex-child" id="logo">
+                    <p class="align-left" id="logo-text">Roar St. Meuseum</p>
+                    <img src="transaurusLogoCrop.png" width="140px">
+                </div>
+                <div class="flex-child align-center" id="menu">
+                    <ul>
+                    <li><button id="ASong" class="top-item" onClick="playPause()">
+                        <audio
+                        src="dinosaur-roar.mp3"
+                    ></audio>Contact</button></li>
+                    <li><button id="ASong" class="top-item" onClick="playPause()">
+                        <audio
+                        src="dinosaur-roar.mp3"
+                    ></audio>Donate</button></li>
+                    <li><button id="ASong" class="top-item" onClick="playPause()">
+                        <audio
+                        src="dinosaur-roar.mp3"
+                    ></audio>Events</button></li>
+                    <li><button id="ASong" class="top-item" onClick="playPause()">
+                        <audio
+                        src="dinosaur-roar.mp3"
+                    ></audio>News</button></li>
+                    </ul>
 
+                    <script>
+                    var aud = document.getElementById("ASong").children[0];
+                    var isPlaying = false;
+                    aud.pause();
+
+                    function playPause() {
+                        if (isPlaying) {
+                        aud.pause();
+                        } else {
+                        aud.play();
+                        }
+                        isPlaying = !isPlaying;
+                    }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div class="page-main">
+    <div>
+        <div>
+            <div class="container">
+                <img src="Diplodoncus.jpg" width="100%" height="auto">
+                <div class="pos-centered">
+                    <h2 style="padding-bottom: 0px;"> Cretacious Period</h2>
+                    <p style="padding-top: 0px;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- The following Section is for the video -->
+    <div>
+        <div class="flex-parent" id="InfoVideo-Section">
+            <div class="flex-child">
+                <video id="InfoVideo" controls>
+                    <source src="InfoVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-child align-center" id="InfoVideo-Text">
+                <p>A video displaying what it may have been like for various dinosaurs during the cretacious period, featuring accurate visuals and sounds to the experience!</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
