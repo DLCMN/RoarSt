@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.triceratopstitle {
+    height: 41.2vw;
+    background-repeat: no-repeat;
+    background-color: white;
+    text-align: center;
+    background-image: url(Triceratopical.jpg);
+    background-size: contain;
+    opacity: 100%;
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    color: #623b19;
+    display: inline-block;
+}
+
+.headname {
+    margin-top: 21.65vw;
+    height: 9vw;
+    background-color: bisque;
+    opacity: 70%;
+    font-size: 3vw;
+    padding-top: 1.59vw;
+}
+
+#tricburronholder {
+    display: inline-flex;
+    flex-direction: row;
+    size: 5px;
+}
+
+#trichome {
+    width: 5vw;
+    height: 2.2vmax;
+    background-color: #be8554;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    top: 0;
+    left: 0;
+}
+
+#tricbuttonlogo {
+   margin-top: 3.5px;
+   height: 5vw;
+   margin-right: 2vw;
+   margin-left: 1.5vw;
+   top: 19;
+   position: absolute;
+   left: 0;
+}
+
+#trichome:active {
+    background-color: #623b19;
+}
+
+.collumn1 {
+    margin-left: 3px;
+    position: relative;
+    width: 33%;
+    display:inline-block;
+    background-color: antiquewhite;
+}
+
+.collumn2 {
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    background-color: navajowhite;
+}
+
+.collumn3 {
+     width: 30%;
+    display: inline-block;
+    background-color: burlywood;
+}
+
+#skeleton {
+    margin-top: 15px;
+    margin-left: 3px;
+   height: auto;
+    width: 50%;
+}
+
+.bigjohn {
+    position: absolute;
+    margin-top: 15px;
+    height: auto;
+    width: 50%;
+}
+
+
+.skeletonfacts {
+    color: antiquewhite;
+    background-color: #462e1b;
+    margin-top: 5px;
+}
+
+.pagebreak {
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 15px;
+    padding: auto;
+    padding-top: 10px;
+    background-color: #623b19;
+    height: 50px;
+}

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" href="PageHead.css">
+    <link rel="stylesheet" href="MainPage.css">
     <meta charset="utf-8">
 </head>
 <body>
@@ -10,7 +10,7 @@
             <div class="flex-parent">
                 <div class="flex-child" id="logo">
                     <p class="align-left" id="logo-text">Roar St. Meuseum</p>
-                    <img src="transaurusLogoCrop.png" width="140px">
+                    <img src="mpimages\transaurusLogoCrop.png" width="140px">
                 </div>
                 <div class="flex-child align-center" id="menu">
                     <ul>
@@ -55,7 +55,7 @@
     <div>
         <div>
             <div class="container">
-                <img src="Diplodoncus.jpg" width="100%" height="auto">
+                <img src="mpimages\Diplodoncus.jpg" width="100%" height="auto">
                 <div class="pos-centered">
                     <h2 style="padding-bottom: 0px;"> Cretacious Period</h2>
                     <p style="padding-top: 0px;"></p>
@@ -64,13 +64,55 @@
         </div>
     </div>
 
+<!--Page Links-->
+<div class="LinkContainer">
+<a href="Spinosaurus\spino.html">
+<div class="flex-parent">
+  <div class="flex-child LinkImage">
+    <img src="Spinosaurus/spino.png" width="100%">
+  </div>
+  <div class="flex-child">
+    <p style="padding: 10px;">Click here to go to our exhibit on Spinosaurus, a dinosaur that went on land and sea!</p>
+  </div>
+</div>
+</a>
+</div>
+<div class="LinkContainer">
+<a href="Triceratops\TriceratopsPage.html">
+  <div class="flex-parent">
+    <div class="flex-child">
+      <p style="padding: 10px;">Click here to go to our exhibit on the Triceratops, a large herbiverous dinosaur!</p>
+    </div>
+    <div class="flex-child LinkImage">
+      <img src="Triceratops\BigJohn.jpg" width="100%">
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="LinkContainer">
+<a>
+<div class="flex-parent">
+  <div class="flex-child">
+    <img src="Triceratops\skeleton.jpg" width="100%">
+  </div>
+  <div class="flex-child">
+    <p style="padding: 10px;">Click here to go to our exhibit on the T-Rex, one of the most dangerous ancient predators!</p>
+  </div>
+</div>
+</a>
+</div>
+
 <!-- The following Section is for the video -->
     <div>
         <div class="flex-parent" id="InfoVideo-Section">
-            <div class="flex-child">
-                <video id="InfoVideo" controls>
-                    <source src="InfoVideo.mp4" type="video/mp4">
-                </video>
+            <div id="InfoVideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cMehU72a-Uw?si=rS1s86D-SeQHjeMz" 
+                  title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
             </div>
             <div class="flex-child align-center" id="InfoVideo-Text">
                 <p>A video displaying what it may have been like for various dinosaurs during the cretacious period, featuring accurate visuals and sounds to the experience!</p>
@@ -78,5 +120,161 @@
         </div>
     </div>
 </div>
+
+<!--Donation feature-->
+     <div class="container-E"> 
+
+      <div class="upDono">  <!-- Lines logo part and goerge button-->
+        <div class="george">  <!-- Holds the george button-->
+         <div class="hover_img">
+           <a href="https://www.youtube.com/watch?v=zXNTijY_ELw">Why you should donate<span> <img src="mpimages/hungryDinoTrans.png" alt="georges dinosaur" /></span></a>
+          </div>
+        </div>
+
+        <div style="text-align: center;">   <!-- container for logo+plsdono to sort-->
+          <div class="logoDono">
+          <!--Pls dono text-->
+           <div class="donoWrap">
+            <h1 > Please donate </h1>   <!--Orginal sizing was 45px for font-->
+           </div>
+
+            <!--Logo-->
+            <div class="logo">  
+             <img class="cent" alt="Dinologo" src="mpimages/transaurusLogo.png"   >
+            </div>
+          </div>
+        </div>
+        <div class="george"> 
+
+        </div>
+      </div>
+
+        <!--Dono input box-->
+      <div class="centr">
+          <input class="donoinp" type="number" id="customDono" value="0" maxlength="40" />
+
+      </div>
+
+      <!--Dono buttons-->
+        <div class="contitem">
+           <button onclick="one()" class="item item-1"> €1   </button>
+           <button onclick="five()" class="item item-2"> €5   </button>
+           <button onclick="ten()" class="item item-3"> €10  </button>
+           <button onclick="twentf()" class="item item-4"> €25  </button>
+           <button onclick="fift()" class="item item-5"> €50  </button>
+        </div>
+        
+
+      
+
+      <div class="centr">
+     <button id="butto" class="itembut"> Donate </button> 
+        <p id="paratest" style="font-size: 18px;">   </p>
+    
+     </div>
+
+     </div>
+
+     <!-- Bottom section -->
+      <div class="bottomBg">
+        <div class="upBottom">
+          <div class="trexPhoto"> 
+            <img src="mpimages/whiteTransaurus.png"  alt="logo"/>
+          </div>
+          <div class="newsLetter">
+              <h2> Join our Newsletter!</h2>
+              <button id="butn" onclick="news()" >         
+                Subscribe
+              </button>
+              <div class="holdThanks" >
+
+              <p id="thanks">  </p>
+              </div>
+          </div>
+          <div class="socialMeds">
+            <div class="miniSocialMeds 1"> 
+              <img src="mpimages/instaIcon.png" style="height: 2.8vw; margin-left: 37%; padding-top: 3.5px;" >
+              <img src="mpimages/twitterBird.png" style="height: 3vw; margin-left: 5px; margin-right: 35%; padding-top: 2px;" >
+            </div>
+            <div class="miniSocialMeds 2">  
+              <img src="mpimages/appleStore.png" style="height: 2.7vw; padding-top: 2px; padding-right: 3px;" >
+               <img src="mpimages/playStore.png" style="height: 2.6vw; padding-top: 2px;" >
+            </div>
+          </div>
+        </div>
+        <div class="lowBottom">
+          <div class="logoBottom">
+              <img src="mpimages/dinoHead.png" alt="Trex bones" />
+          </div>
+          <div class="address">
+            <div class="inline1"> 
+              <h2> Roar street Museum </h2>
+              <h2> West Stomp city </h2>
+              <h2> Akkala Island</h2> 
+            </div>
+            <h2> Phone -> 1-800-ROAR</h2>  
+            <h2> Call us from 10am-2pm </h2> 
+            <h2>Mon-thurs</h2>
+          
+          </div>
+          <div class="linksBottom">
+            <ul style="list-style-type: none;">
+              <li> About us </li>
+              <li> Contact us</li>
+              <li> Our research </li>
+              <li> Our team</li>
+            </ul>
+            <ul style="list-style-type: none;">
+              <li> Accessibility</li>
+              <li> Volunteer</li>
+              <li> Careers</li>
+              <li> Shop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+       <script>
+      /*-- Custom dono output --*/
+      const butto = document.getElementById('butto');
+      const donation = document.getElementById('customDono');
+      const name = document.getElementById('paratest');
+
+      function showName(inputName) {
+        name.innerText = "Thank you for donating €" + inputName + "!";
+      }
+
+      butto.addEventListener('click' , () => {
+        showName(donation.value)
+       } )
+
+
+        /*-- Set button outputs --*/
+        function one() {
+           document.getElementById("paratest").innerHTML = "Thank you for donating €1!"; 
+        }
+        function five() {
+           document.getElementById("paratest").innerHTML = "Thank you for donating €5!"; 
+        }
+        function ten() {
+           document.getElementById("paratest").innerHTML = "Thank you for donating €10! "; 
+        }
+        function twentf() {
+           document.getElementById("paratest").innerHTML = "Thank you for donating €25! ";
+        }
+        function fift() {
+           document.getElementById("paratest").innerHTML = "Thank you for donating €50! ";
+        }
+        function news() {
+           document.getElementById("thanks").innerHTML = "Thanks for joining! You're jurassic!";
+        }
+
+
+     </script>
+
+
+
+</header>
 </body>
 </html>
