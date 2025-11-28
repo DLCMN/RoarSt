@@ -240,11 +240,10 @@
       const butto = document.getElementById('butto');
       const donation = document.getElementById('customDono');
       const name = document.getElementById('paratest');
-
+    
       function showName(inputName) {
         name.innerText = "Thank you for donating €" + inputName + "!";
       }
-
       butto.addEventListener('click' , () => {
         showName(donation.value)
        } )
